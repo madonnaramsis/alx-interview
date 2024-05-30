@@ -4,12 +4,12 @@ N queens problem
 """
 import sys
 
-# List of solutions
-solutions = []
-# Size of the chessboard
-n = 0
-# List of possible positions
-pos = None
+
+solutions = []  # List of solutions
+
+n = 0  # Size of the chessboard
+
+pos = None  # List of possible positions
 
 
 def get_input():
